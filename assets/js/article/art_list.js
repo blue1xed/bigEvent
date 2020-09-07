@@ -138,4 +138,9 @@ $(function () {
         });
     })
 
+
+    // //通过代理的方式,为编辑按钮绑定点击事件处理函数
+    $('body').on('click', '.btn-edit', function () {
+        location.href = '/article/art_edit.html'    
+    })
 })
